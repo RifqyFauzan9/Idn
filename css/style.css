@@ -76,36 +76,48 @@ body{
     letter-spacing: 10px;
 }
 
-.header {
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    padding:2rem 9%;
-    background:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    z-index:100;
+aside.aside {
+    position: fixed;
+    background-color: black;
+    padding: 30px;
+    width: 90px;
+    height: 100%;
 }
-.logo img{
-    width: 150px;
-    cursor:default;
+
+.logo img {
+    width: 80px;
+    margin: -2rem 0 3rem -2.6rem;
 }
-.navbar a{
-    font-size:1.7rem;
-    color:var(--text-color);
-    margin-left:4rem;
-    transition:.3s;
+
+aside.aside nav a {
+    display: block;
 }
-.navbar a:hover,
-.navbar a.active{
-    color:var(--main-color);
+
+aside.aside nav .bx {
+    padding: 5px;
+    margin-left: -.20rem;
+    font-size: 2.5rem;
+    color: white;
+    border-radius: 1rem;
+    transition: .4s;
 }
-#menu-icon{
-    font-size:3.6rem;
-    color:var(--text-color);
-    display:none;
+
+aside nav .line-satu {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+aside nav .line {
+    margin-bottom: 70px;
+}
+
+.bx.bxs-map-alt {
+    margin-bottom: 60px;
+}
+
+.bx:hover {
+    transform: scale(1.1);
+    background-color: #605f5f;
 }
 .btn{
     display:inline-block;
@@ -147,6 +159,10 @@ body{
     margin-right: .5rem;
 }
 
+.about-content,.prestasi-content,.content,.maps-content {
+    margin-top: -8rem;
+}
+
 .about-content h1 {
     font-size: 30px;
     display: inline;
@@ -169,7 +185,8 @@ body{
 
 .gallery {
     width: 80%;
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-left: 50px;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -191,6 +208,19 @@ body{
     font-size: 30px;
     display: inline;
     border-bottom: 1px solid black;
+}
+
+.maps-content {
+    text-align: center;
+}
+
+.maps-content h1 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.map {
+    border-radius: 1rem;
 }
 
 .contact h1 {
@@ -241,6 +271,10 @@ body{
         font-size: 55%;
         overflow-x: hidden;
     }
+
+    .gallery {
+        margin-left: -1rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -249,22 +283,43 @@ body{
     }
 }
 
-@media (max-width: 576px) {
-    header.header {
+@media (max-width: 768px) {
+    aside.aside {
         display: none;
     }
+    .map {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 576px) {
 
     .home-content h1 {
         font-size: 40px;
     }
+    .gallery {
+        margin-left: 2rem;
+    }
 }
 
-@media (max-width: 365px){
+@media (max-width: 490px) {
+}
+
+@media (max-width: 380px){
+    .gallery {
+        margin-left: -.1rem;
+    }
     .footer{
         flex-direction:column-reverse;
     }
     .footer p{
        text-align:center;
        margin-top:2rem; 
+    }
+}
+
+@media (max-width: 365px) {
+    .gallery {
+        margin-left: -2.2rem;
     }
 }
