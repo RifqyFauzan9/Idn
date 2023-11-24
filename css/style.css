@@ -302,9 +302,6 @@ aside nav .line {
     }
 }
 
-@media (max-width: 490px) {
-}
-
 @media (max-width: 380px){
     .gallery {
         margin-left: -.1rem;
@@ -319,6 +316,10 @@ aside nav .line {
 }
 
 @media (max-width: 365px) {
+    .map {
+        width: 250px;
+        height: 250px;
+    }
     .gallery {
         margin-left: -2.2rem;
     }
