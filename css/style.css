@@ -86,6 +86,7 @@ body{
     justify-content:space-between;
     align-items:center;
     z-index:100;
+    visibility: hidden;
 }
 .logo{
     font-size:2.5rem;
@@ -302,6 +303,9 @@ nav.navbar-dua .bx:hover {
 }
 
 @media (max-width: 768px) {
+    header.header {
+        visibility: visible;
+    }
     #menu-icon{
         display:block;
     }
