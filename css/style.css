@@ -75,8 +75,37 @@ body{
     font-weight: 800;
     letter-spacing: 10px;
 }
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:2rem 9%;
+    background:var(--bg-color);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+}
+.logo{
+    font-size:2.5rem;
+    color:var(--text-color);
+    font-weight:600;
+    cursor:default;
+}
+.navbar a{
+    font-size:1.7rem;
+    color:var(--text-color);
+    margin-left:4rem;
+    transition:.3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:var(--main-color);
+}
 
 aside.aside {
+    z-index: 100;
     position: fixed;
     background-color: black;
     padding: 30px;
@@ -84,7 +113,7 @@ aside.aside {
     height: 100%;
 }
 
-.logo img {
+.logo-dua img {
     width: 80px;
     margin: -2rem 0 3rem -2.6rem;
 }
@@ -110,12 +139,17 @@ aside nav .line-satu {
 aside nav .line {
     margin-bottom: 70px;
 }
+#menu-icon{
+    font-size:3.6rem;
+    color:var(--text-color);
+    display:none;
+}
 
 .bx.bxs-map-alt {
     margin-bottom: 60px;
 }
 
-nav.navbar .bx:hover {
+nav.navbar-dua .bx:hover {
     transform: scale(1.1);
     background-color: #605f5f;
 }
@@ -157,10 +191,6 @@ nav.navbar .bx:hover {
 
 .bx {
     margin-right: .5rem;
-}
-
-.about-content,.prestasi-content,.content,.maps-content {
-    margin-top: -8rem;
 }
 
 .about-content h1 {
@@ -272,6 +302,28 @@ nav.navbar .bx:hover {
 }
 
 @media (max-width: 768px) {
+    #menu-icon{
+        display:block;
+    }
+    .navbar{
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        padding:1rem 3%;
+        background:var(--bg-color);
+        border-top:.1rem solid rgba(0, 0, 0, .2);
+        box-shadow:0 .5rem 1rem rgba(0, 0, 0, .2);
+        display:none;
+    }
+    .navbar.active{
+        display:block; 
+    }
+    .navbar a{
+        display:block;
+        font-size:2rem;
+        margin:3rem 0;
+    }
     aside.aside {
         display: none;
     }
