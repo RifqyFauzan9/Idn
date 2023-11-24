@@ -115,7 +115,7 @@ aside nav .line {
     margin-bottom: 60px;
 }
 
-.bx:hover {
+nav.navbar .bx:hover {
     transform: scale(1.1);
     background-color: #605f5f;
 }
@@ -210,19 +210,6 @@ aside nav .line {
     border-bottom: 1px solid black;
 }
 
-.maps-content {
-    text-align: center;
-}
-
-.maps-content h1 {
-    font-size: 30px;
-    margin-bottom: 1.5rem;
-}
-
-.map {
-    border-radius: 1rem;
-}
-
 .contact h1 {
     font-size: 30px;
     display: inline;
@@ -236,6 +223,7 @@ aside nav .line {
 
 .kontakk {
     font-size: 15px;
+    margin-left: 3rem;
 }
 
 .footer{
@@ -300,18 +288,18 @@ aside nav .line {
     .gallery {
         margin-left: 2rem;
     }
-}
-
-@media (max-width: 380px){
-    .gallery {
-        margin-left: -.1rem;
-    }
     .footer{
         flex-direction:column-reverse;
     }
     .footer p{
        text-align:center;
        margin-top:2rem; 
+    }
+}
+
+@media (max-width: 380px){
+    .gallery {
+        margin-left: -.1rem;
     }
 }
 
