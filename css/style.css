@@ -259,6 +259,7 @@ nav.navbar-dua .bx:hover {
 .kontakk {
     font-size: 15px;
     margin-left: 3rem;
+    list-style: none;
 }
 
 .footer{
@@ -271,7 +272,7 @@ nav.navbar-dua .bx:hover {
 }
 .footer-text{
     font-size:1.6rem;
-    color: black;
+    color: white;
 }
 .footer-iconTop a {
     display:inline-flex;
