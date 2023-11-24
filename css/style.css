@@ -194,6 +194,10 @@ nav.navbar-dua .bx:hover {
     margin-right: .5rem;
 }
 
+.about-content, .prestasi-content, .content {
+    margin-top: -8rem;
+}
+
 .about-content h1 {
     font-size: 30px;
     display: inline;
@@ -216,12 +220,11 @@ nav.navbar-dua .bx:hover {
 
 .gallery {
     width: 80%;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin: 20px auto;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    grid-gap: 150px;
+    grid-gap: 120px;
 }
 
 .gallery li img {
@@ -331,8 +334,11 @@ nav.navbar-dua .bx:hover {
     aside.aside {
         display: none;
     }
-    .map {
-        max-width: 450px;
+    .about-content, .prestasi-content, .content {
+        margin-top: -1rem;
+    }
+    .about-content p {
+        text-align: justify;
     }
 }
 
