@@ -314,6 +314,9 @@ nav.navbar-dua .bx:hover {
     }
     #menu-icon{
         display:block;
+        border: 2px solid black;
+        border-radius: 1rem;
+        padding: 1px;
     }
     .navbar{
         position:absolute;
@@ -374,6 +377,6 @@ nav.navbar-dua .bx:hover {
         height: 250px;
     }
     .gallery {
-        margin-left: -2.2rem;
+        margin: -2.2rem;
     }
 }
