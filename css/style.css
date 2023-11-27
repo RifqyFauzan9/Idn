@@ -194,7 +194,7 @@ nav.navbar-dua .bx:hover {
     margin-right: .5rem;
 }
 
-.about-content, .prestasi-content, .content {
+.about-content, .prestasi-content {
     margin-top: -8rem;
 }
 
@@ -247,10 +247,6 @@ nav.navbar-dua .bx:hover {
     font-size: 30px;
     display: inline;
     border-bottom: 1px solid blue;
-}
-
-.services h2{
-    margin-bottom:5rem;
 }
 .services-container{
     display:flex;
