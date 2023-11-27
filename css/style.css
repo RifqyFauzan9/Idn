@@ -405,10 +405,10 @@ nav.navbar-dua .bx:hover {
 
 @media (max-width: 490px) {
     .gallery {
-        margin-left: 3rem;
+        margin: 20px 10rem;
     }
     .services-container {
-        margin-left: -1rem;
+        margin-left: 2rem;
     }
 }
 
