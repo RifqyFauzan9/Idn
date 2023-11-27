@@ -251,8 +251,9 @@ nav.navbar-dua .bx:hover {
 .services-container{
     display:flex;
     justify-content:center;
-    margin-left: 100px;
-    margin-top: 20px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     flex-wrap:wrap;
     gap:2rem;
 }
@@ -380,6 +381,12 @@ nav.navbar-dua .bx:hover {
     .about-content, .prestasi-content, .services-content {
         margin-top: -1rem;
     }
+    .services-container {
+        margin-left: -.1rem;
+    }
+    .gallery {
+        margin-left: 1.5rem;
+    }
     .about-content p {
         text-align: justify;
     }
@@ -401,11 +408,17 @@ nav.navbar-dua .bx:hover {
 
 @media (max-width: 490px) {
     .gallery {
-        margin-left: -.1rem;
+        margin-left: 3rem;
     }
     .services-container {
         margin-top: 3rem;
         margin-left: .3rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .gallery {
+        margin-left: .5rem;
     }
 }
 
