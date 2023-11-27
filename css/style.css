@@ -246,8 +246,9 @@ nav.navbar-dua .bx:hover {
 }
 
 .heading{
-    text-align:center;
-    font-size:4.5rem;
+    font-size: 30px;
+    display: inline;
+    border-bottom: 1px solid blue;
 }
 
 .services h2{
@@ -257,6 +258,7 @@ nav.navbar-dua .bx:hover {
     display:flex;
     justify-content:center;
     margin-left: 100px;
+    margin-top: 20px;
     flex-wrap:wrap;
     gap:2rem;
 }
