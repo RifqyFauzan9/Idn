@@ -140,6 +140,11 @@ aside nav .line-satu {
 aside nav .line {
     margin-bottom: 70px;
 }
+
+.line-dua {
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+}
 #menu-icon{
     font-size:3.6rem;
     color:var(--text-color);
@@ -248,10 +253,15 @@ nav.navbar-dua .bx:hover {
     display: inline;
     border-bottom: 1px solid blue;
 }
+
+#major .services-container {
+    margin-left: 10rem;
+}
+
 .services-container{
     display:flex;
     justify-content:center;
-    margin-left: 10rem;
+    margin-left: 9rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
     flex-wrap:wrap;
@@ -329,9 +339,8 @@ nav.navbar-dua .bx:hover {
         font-size: 55%;
         overflow-x: hidden;
     }
-
     .gallery {
-        margin-left: -1rem;
+        margin-left: -.1rem;
     }
 }
 
@@ -342,6 +351,12 @@ nav.navbar-dua .bx:hover {
 }
 
 @media (max-width: 768px) {
+    .home {
+        background-position: -60rem;
+    }
+    .home-content {
+        margin-top: 20rem;
+    }
     header.header {
         visibility: visible;
     }
@@ -378,6 +393,9 @@ nav.navbar-dua .bx:hover {
     aside.aside {
         display: none;
     }
+    section.services#major .services-container {
+        margin-left: -.1rem;
+    }
     .about-content, .prestasi-content, .services-content {
         margin-top: -1rem;
     }
@@ -408,7 +426,7 @@ nav.navbar-dua .bx:hover {
 
 @media (max-width: 490px) {
     .gallery {
-        margin-left: 3rem;
+        margin-left: 2.5rem;
     }
     .services-container {
         margin-top: 3rem;
@@ -423,6 +441,9 @@ nav.navbar-dua .bx:hover {
 }
 
 @media (max-width: 365px) {
+    .home-content {
+        margin-top: -.1rem;
+    }
     .gallery {
         margin-top: 1.5rem;
         margin-left: -2.2rem;
