@@ -239,12 +239,6 @@ nav.navbar-dua .bx:hover {
     transform:scale(1.1);
 }
 
-.prestasi h1 {
-    font-size: 30px;
-    display: inline;
-    border-bottom: 1px solid blue;
-}
-
 .heading{
     font-size: 30px;
     display: inline;
@@ -402,6 +396,7 @@ nav.navbar-dua .bx:hover {
 
 @media (max-width: 490px) {
     .gallery {
+        margin-top: 10rem;
         margin-left: -.1rem;
     }
     .services-container {
