@@ -245,20 +245,56 @@ nav.navbar-dua .bx:hover {
     border-bottom: 1px solid blue;
 }
 
-.contact h1 {
-    font-size: 30px;
-    display: inline;
-    border-bottom: 1px solid blue;
+.heading{
+    text-align:center;
+    font-size:4.5rem;
 }
 
-.contact h2 {
-    font-size: 20px;
-    color: #575353;
+.services h2{
+    margin-bottom:5rem;
+}
+.services-container{
+    display:flex;
+    justify-content:center;
+    margin-left: 100px;
+    flex-wrap:wrap;
+    gap:2rem;
+}
+.services-container .services-box{
+    flex:1 1 30rem;
+    background:var(--second-bg-color);
+    padding:3rem 2rem 4rem;
+    border-radius:2rem;
+    text-align:center;
+    border:.2rem solid var(--bg-color);
+    transition:.5s ease;
+}
+.services-container .services-box:hover{
+    border-color:var(--main-color);
+    transform:scale(1.02);
+}
+.services-box i{
+    font-size:7rem;
+    color:var(--main-color);
+}
+.services-box h3{
+    font-size:2.6rem;
+}
+.services-box p{
+    font-size:1.6rem;
+    margin:1rem 0 3rem;
+    text-align:justify;
 }
 
 .kontakk {
-    font-size: 15px;
-    margin-left: 3rem;
+    font-size: 20px;
+    margin-top: -2rem;
+    list-style: none;
+}
+
+.kontakk p {
+    font-size: 20px;
+    margin-top: -2rem;
     list-style: none;
 }
 
@@ -365,17 +401,14 @@ nav.navbar-dua .bx:hover {
     }
 }
 
-@media (max-width: 380px){
-    .gallery {
-        margin-left: -.1rem;
+@media (max-width: 490px) {
+    
+    .services-container {
+        margin-left: -2.5rem;
     }
 }
 
 @media (max-width: 365px) {
-    .map {
-        width: 250px;
-        height: 250px;
-    }
     .gallery {
         margin: -2.2rem;
     }
