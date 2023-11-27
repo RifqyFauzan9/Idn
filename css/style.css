@@ -194,7 +194,7 @@ nav.navbar-dua .bx:hover {
     margin-right: .5rem;
 }
 
-.about-content, .prestasi-content {
+.about-content, .prestasi-content, .services-content {
     margin-top: -8rem;
 }
 
@@ -377,7 +377,7 @@ nav.navbar-dua .bx:hover {
     aside.aside {
         display: none;
     }
-    .about-content, .prestasi-content, .content {
+    .about-content, .prestasi-content, .services-content {
         margin-top: -1rem;
     }
     .about-content p {
