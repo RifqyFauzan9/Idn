@@ -387,12 +387,15 @@ nav.navbar-dua .bx:hover {
 }
 
 @media (max-width: 576px) {
-
+    
+    .gallery {
+        margin: 20px 10rem;
+    }
+    .services-container {
+        margin-left: 2rem;
+    }
     .home-content h1 {
         font-size: 40px;
-    }
-    .gallery {
-        margin-left: 2rem;
     }
     .footer{
         flex-direction:column-reverse;
@@ -400,15 +403,6 @@ nav.navbar-dua .bx:hover {
     .footer p{
        text-align:center;
        margin-top:2rem; 
-    }
-}
-
-@media (max-width: 490px) {
-    .gallery {
-        margin: 20px 10rem;
-    }
-    .services-container {
-        margin-left: 2rem;
     }
 }
 
