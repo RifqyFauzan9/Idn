@@ -219,6 +219,10 @@ nav.navbar-dua .bx:hover {
     font-weight: 600;
 }
 
+.prestasi-content h1 {
+    margin-bottom: 4rem;
+}
+
 .gallery {
     width: 80%;
     margin: 20px auto;
@@ -396,7 +400,6 @@ nav.navbar-dua .bx:hover {
 
 @media (max-width: 490px) {
     .gallery {
-        margin-top: 10rem;
         margin-left: -.1rem;
     }
     .services-container {
