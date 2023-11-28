@@ -144,6 +144,10 @@ aside nav .line {
 .line-dua {
     margin-bottom: 5rem;
 }
+
+.line-tiga {
+    margin-top: 4rem;
+}
 #menu-icon{
     font-size:3.6rem;
     color:var(--text-color);
@@ -198,7 +202,7 @@ nav.navbar-dua .bx:hover {
     margin-right: .5rem;
 }
 
-.about-content, .prestasi-content, .services-content {
+.about-content, .prestasi-content, .services-content, .menu-content, .top, .topp {
     margin-top: -8rem;
 }
 
@@ -426,6 +430,10 @@ nav.navbar-dua .bx:hover {
     font-size:1.6rem;
     margin:1rem 0 3rem;
     text-align:justify;
+}
+
+section.contact#contact div.top form {
+    margin-top: 2rem;
 }
 
 .kontakk {
