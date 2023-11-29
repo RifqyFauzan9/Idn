@@ -184,7 +184,6 @@ nav.navbar-dua .bx:hover {
 
 .home-content {
     color: white;
-    max-width: 520px;
     text-align: center;
     margin: 8rem auto;
 }
@@ -195,7 +194,7 @@ nav.navbar-dua .bx:hover {
 }
 
 .home-content p {
-    font-size: 15px;
+    font-size: 2rem;
 }
 
 .bx {
@@ -235,7 +234,6 @@ nav.navbar-dua .bx:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #feeee7;
     padding: 20px;
     border-radius: 0.5rem;
     text-align: center;
@@ -248,15 +246,8 @@ nav.navbar-dua .bx:hover {
     width: 100%;
     height: 100%;
 }
-.box h2{
-    color: var(--bg-color);
-    font-size: 1.3rem;
-}
-.box h3{
-    color: var(--bg-color);
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 4px 0 10px;
+section.menu .menu-container .box h3 {
+    font-size: 1.5rem;
 }
 .box span{
     font-size: var(--p-font);
@@ -538,6 +529,12 @@ section.contact#contact div.top form {
     }
     .gallery {
         margin-left: -.1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-content, .footer, .top, .topp, .services-content, .menu-content {
+        margin-left: 3rem;
     }
 }
 
