@@ -558,6 +558,10 @@ section.contact#contact div.top form {
 }
 
 @media (max-width: 490px) {
+    #menu-icon {
+        position: fixed;
+        left: 43rem;
+    }
     .services-container {
         margin-top: 3rem;
         margin-left: .3rem;
@@ -568,6 +572,9 @@ section.contact#contact div.top form {
 }
 
 @media (max-width: 365px) {
+    #menu-icon {
+        left: 30rem;
+    }
     .home-content {
         margin-top: -.1rem;
     }
