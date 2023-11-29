@@ -539,6 +539,9 @@ section.contact#contact div.top form {
 }
 
 @media (max-width: 991px) {
+    .about-content, .footer, .top, .topp, .services-content, .menu-content {
+        margin-left: -.6rem;
+    }
     .contact{
         min-height:auto;
     }
