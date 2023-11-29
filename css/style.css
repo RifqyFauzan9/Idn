@@ -533,6 +533,9 @@ section.contact#contact div.top form {
 }
 
 @media (max-width: 1024px) {
+    .home-content {
+        margin-top: 15rem;
+    }
     .about-content, .footer, .top, .topp, .services-content, .menu-content {
         margin-left: 3rem;
     }
