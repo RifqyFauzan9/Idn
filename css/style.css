@@ -491,6 +491,9 @@ section.contact#contact div.top form {
     header.header {
         visibility: visible;
     }
+    .home{
+        background-position: -60rem;
+    }
     #menu-icon{
         display:block;
         border-radius: 1rem;
@@ -499,7 +502,6 @@ section.contact#contact div.top form {
         border: 2px solid white;
     }
     #menu-icon:hover{
-        
         border: 2px solid black;
     }
     .navbar{
