@@ -75,32 +75,6 @@ aside.aside {
     height: 100%;
 }
 
-.aside:hover {
-    .hidden{
-        visibility: visible;
-    }
-    .line {
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-    }
-
-    .line-satu {
-        margin-top: 4rem;
-        margin-bottom: 0;
-    }
-
-    .line-dua {
-        margin-bottom: 4rem;
-    }
-
-    .line-tiga {
-        margin-top: 4rem;
-    }
-
-    width: 26rem;
-    background-color: lightseagreen;
-}
-
 .logo-dua img {
     width: 80px;
     margin: -2rem 0 0 -2.6rem;
