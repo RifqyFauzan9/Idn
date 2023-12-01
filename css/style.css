@@ -121,12 +121,6 @@ aside nav .line {
     margin-bottom: 30px;
 }
 
-.hidden {
-    visibility: hidden;
-    font-size: 2rem;
-    margin-left: 1rem;
-}
-
 nav.navbar-dua .bx:hover {
     transform: scale(1.1);
     color: black;
@@ -167,6 +161,10 @@ nav.navbar-dua .bx:hover {
 
 .home-content p {
     font-size: 2rem;
+}
+
+.home-content i {
+    font-weight: 500;
 }
 
 .bx {
