@@ -653,7 +653,7 @@ section.contact#contact div.top form {
 @media (max-width: 490px) {
     #menu-icon {
         position: fixed;
-        left: 40rem;
+        left: 45rem;
     }
 
     .services-container {
