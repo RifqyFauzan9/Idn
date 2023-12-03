@@ -650,28 +650,40 @@ section.contact#contact div.top form {
     }
 }
 
-@media (max-width: 490px) {
-    #menu-icon {
-        position: fixed;
-        left: 45rem;
+@media (max-width: 450px) {
+    .home-content {
+        margin-top: 15rem;
     }
-
+    .home-content h1 {
+        font-size: 3.5rem;
+    }
+    .home-content p {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
     .services-container {
         margin-top: 3rem;
         margin-left: .3rem;
     }
-
     .contact form .input-box input {
         width: 100%;
     }
 }
 
-@media (max-width: 365px) {
-    #menu-icon {
-        left: 30rem;
+@media (max-width:380px) {
+    .home-content h1 {
+        font-size: 3rem;
     }
+    .home-content p{
+        font-size: 2rem;
+    }
+}
 
-    .home-content {
-        margin-top: -.1rem;
+@media (max-width:320px){
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+    .home-content p{
+        font-size: 1.5rem;
     }
 }
